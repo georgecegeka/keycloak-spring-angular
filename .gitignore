@@ -18,6 +18,7 @@ speed-measure-plugin.json
 backend/.idea
 backend/out
 backend/.gradle
+backend/backend.iml
 
 .idea/
 /out
