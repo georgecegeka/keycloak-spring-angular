@@ -1,12 +1,10 @@
-import { BrowserModule } from '@angular/platform-browser';
-import {APP_INITIALIZER, NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { FeedingComponent } from './feeding/feeding.component';
-import { HttpClientModule } from '@angular/common/http';
-import {KeycloakAngularModule, KeycloakService} from 'keycloak-angular';
-import { initializer } from './utils/app-init';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {FeedingComponent} from './feeding/feeding.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,16 +14,9 @@ import { initializer } from './utils/app-init';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    KeycloakAngularModule
+    HttpClientModule
   ],
   providers: [
-    {
-      provide: APP_INITIALIZER,
-      useFactory: initializer,
-      multi: true,
-      deps: [KeycloakService]
-    }
   ],
   bootstrap: [AppComponent]
 })
