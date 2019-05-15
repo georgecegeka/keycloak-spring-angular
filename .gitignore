@@ -15,8 +15,10 @@ chrome-profiler-events.json
 speed-measure-plugin.json
 
 # IDEs and editors
-backend/.idea/**
-backend/out/**
+backend/.idea
+backend/out
+backend/.gradle
+backend/backend.iml
 
 .idea/
 /out
