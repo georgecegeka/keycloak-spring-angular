@@ -19,3 +19,4 @@
   1. Keycloak documentation - https://www.keycloak.org/docs/4.8/
   2. Spring boot adapter - https://medium.com/@jinnerbichler/integrating-keycloak-4-with-spring-boot-2-microservices-6a6579f1d121, https://www.keycloak.org/docs/4.8/securing_apps/index.html#_spring_boot_adapter
   3. Angular adapter - https://www.npmjs.com/package/keycloak-angular
+  4. Generic Java adapter documentation, including keycloak.json info - https://www.keycloak.org/docs/4.8/securing_apps/index.html#java-adapters
