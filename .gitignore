@@ -19,6 +19,7 @@ backend/.idea
 backend/out
 backend/.gradle
 backend/backend.iml
+backend/build
 
 .idea/
 /out
